@@ -1,0 +1,85 @@
+{
+  "compilerOptions": {
+	"allowJs": true,
+	"allowSyntheticDefaultImports": true,
+	"esModuleInterop": true,
+	"isolatedModules": true,
+	"jsx": "react",
+	"lib": [
+	  "es2019"
+	],
+	"moduleResolution": "node",
+	"noEmit": true,
+	"strict": true,
+	"target": "esnext",
+	"baseUrl": ".",
+	"sourceMap": true,
+	"inlineSources": true,
+	"sourceRoot": "/",
+	"paths": {
+	  "@root/*": [
+		"./*"
+	  ],
+	  "@assets/*": [
+		"assets/*"
+	  ],
+	  "@themes/*": [
+		"src/themes/*"
+	  ],
+	  "@themes": [
+		"src/themes/index.ts"
+	  ],
+	  "@components": [
+		"src/components/index.ts"
+	  ],
+	  "@components/*": [
+		"src/components/*"
+	  ],
+	  "@modules/*": [
+		"src/modules/*"
+	  ],
+	  "@recoil/*": [
+		"src/recoil/*"
+	  ],
+	  "@libraries": [
+		"src/libraries/index.ts"
+	  ],
+	  "@libraries/*": [
+		"src/libraries/*"
+	  ],
+	  "@models/*": [
+		"src/models/*"
+	  ],
+	  "@src/*": [
+		"src/*"
+	  ],
+	  "@utils/*": [
+		"src/utils/*"
+	  ],
+	  "@utils": [
+		"src/utils/index.ts"
+	  ],
+	  "@navigation/*": [
+		"src/navigation/*"
+	  ],
+	  "@navigation": [
+		"src/navigation/index.ts"
+	  ],
+	  "@hooks/*": [
+		"src/hooks/*"
+	  ],
+	  "@hooks": [
+		"src/hooks/index.ts"
+	  ],
+	  "@hocs": [
+		"src/hocs/index.ts"
+	  ]
+	}
+  },
+  "exclude": [
+	"node_modules",
+	"babel.config.js",
+	"metro.config.js",
+	"jest.config.js"
+  ]
+}
